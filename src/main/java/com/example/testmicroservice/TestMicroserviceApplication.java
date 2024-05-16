@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
-@RequestMapping("/test")
 public class TestMicroserviceApplication {
     public static void main(String[] args) {
         SpringApplication.run(TestMicroserviceApplication.class, args);
